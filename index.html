@@ -23,7 +23,7 @@
   </head>
   <body>
     <navbar class="navbar">
-      <div class="navbar__container">
+      <div class="navbar__container container">
         <div class="navbar__logo">
           <img src="/images/logo.svg" alt="Leno" />
         </div>
@@ -56,9 +56,83 @@
             </li>
           </ul>
         </div>
+
+        <!-- mobile menu & hamburger icon -->
+        <div class="navbar__mobile-menu">
+          <div class="navbar__mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+            <!-- mobile menu items -->
+            <div class="navbar__mobile-menu-items">
+              <ul class="navbar__mobile-menu-list">
+                <li class="navbar__mobile-menu-item">
+                  <a href="#" class="navbar__mobile-menu-link">Home</a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                  <a href="#features" class="navbar__mobile-menu-link"
+                    >Features</a
+                  >
+                </li>
+                <li class="navbar__mobile-menu-item">
+                  <a href="#preview" class="navbar__mobile-menu-link"
+                    >Preview</a
+                  >
+                </li>
+                <li class="navbar__mobile-menu-item">
+                  <a href="#details" class="navbar__mobile-menu-link"
+                    >Details</a
+                  >
+                </li>
+                <li class="navbar__mobile-menu-item">
+                  <a href="#download" class="navbar__mobile-menu-link"
+                    >Download</a
+                  >
+                </li>
+                <li class="navbar__mobile-menu-item">
+                  <a href="#" class="navbar__mobile-menu-link--primary">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                  <a href="#" class="navbar__mobile-menu-link--primary">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </navbar>
 
-    <script src="/js/scripts.js"></script>
+    <!-- hero -->
+
+    <header class="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Your <span class="hero__title--primary">AI</span> assistant
+          </h1>
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+            ad odio vel atque officiis id quia eligendi recusandae cumque
+            obcaecati.
+          </p>
+
+          <div class="hero__buttons">
+            <a href="#download" class="hero__button btn">
+              <i class="fa-brands fa-apple"></i>For apple
+            </a>
+            <a href="#download" class="hero__button btn">
+              <i class="fa-brands fa-android"></i>For android
+            </a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="images/header-smartphones.png" alt="leno app" />
+        </div>
+      </div>
+    </header>
+
+    <script src="/js/script.js"></script>
   </body>
 </html>
